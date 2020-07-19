@@ -5,8 +5,14 @@
 }
 
 body{
-	margin: 0px; /* Often browsers have a 5px margin by deafult*/
+	margin: 5px; /* Often browsers have a 5px margin by deafult*/
 	font-family: sans-serif;
+	/background-color: lightblue;
+
+}
+
+/h1{
+	background-color: yellow;
 }
 
 section{
@@ -25,7 +31,7 @@ header{
 }
 
 nav{
-	width: 100%;
+	width: 80%;
 	height: 60px;
 	background-color: wheat;
 }

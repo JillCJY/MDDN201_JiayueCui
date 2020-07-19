@@ -1,8 +1,21 @@
 <!DOCTYPE HTML>
 
 <html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
 
 <head>
+	<style>
+		h1 {text-align: center;}
+	body {
+  background-image: url("img/signal_tower.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  margin-right: 200px;
+  background-attachment: fixed;
+}
+</style>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<title>Your Website</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
@@ -10,8 +23,26 @@
 
 <body>
 
+<nav>
+<div class="w3-sidebar w3-light-grey w3-bar-block" style="width:15%">
+  <h3 class="w3-bar-item">Menu</h3>
+  <a href="#" class="w3-bar-item w3-button">Trafic Light</a>
+  <a href="#" class="w3-bar-item w3-button">Digital Billboard</a>
+  <a href="#" class="w3-bar-item w3-button">ATM Machine</a>
+  <a href="#" class="w3-bar-item w3-button">Power Line</a>
+ </div>
+</nav>nav>
+
+
+<div style="margin-left:15%">
+<div style="margin-right:15%">
+
 	<section>
-		<h1>Here is some centered content, by wrapping it with a section tag</h1>
+		<h1>Exploring Netword in wellington</h1>
+	</section>
+
+
+	<section>
 		<p><em>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque est, egestas tristique quam nec, efficitur efficitur massa. Aenean in faucibus felis. Mauris ut ligula vestibulum, varius metus vitae, maximus orci. </em></p>
 
 		<p>Notice how if you change the width of your browser it stays in the center</p>
@@ -20,12 +51,7 @@
 	<section>
 		<p>This is a simple nav bar, which is full width of the page</p>
 	</section>
-	<nav>
-		<h3>A nice navigation bar</h3>
-		<a href="#one">Link 1</a>
-		<a href="#two">Link 2</a>
-		<a href="#three">Link 3</a>
-	</nav>
+	
 
 	<section id="one">
 		<p><strong>Content number one</strong></p>
@@ -40,6 +66,11 @@
 		<p><strong>Content number 3</strong></p>
 	</section>
 
+		<section id="four">
+		<p><strong>Content number 3</strong></p>
+	</section>
+
+
 	<header>
 		<section>
 			<h1>This header has a solid background and some padding</h1>
@@ -49,54 +80,6 @@
 
 	
 
-	<section>
-		<h3>Grids</h3>
-
-		<p>Use grids to divide up or layout content. For example, putting an image on the left, and lots to text on the right</p>
-
-		<p>I've added a 'show' class so you can see where the grids are. Use chrome's web inspector tools to take a closer look</p>
-
-
-		<div class="g-row show"> <!--first wrap all grid cells in a g-row-->
-			<div class="g-50 show">
-				50% width .g-50
-			</div>
-			<div class="g-50 show">
-				50% width .g-50
-			</div>
-
-			<div class="g-30 show">
-				30% width .g-30
-			</div>
-
-			<div class="g-70 show">
-				70% width .g-70
-			</div>
-		</div>
-
-		<p>The other cool things about grids, is that 50% width means 50% of the div's <em>parent</em>. This means you can put cells in cells to get infinitly smaller sizes. The possiblities are endless!</p>
-
-		<div class="g-row show"> <!--first wrap all grid cells in a g-row-->
-			<div class="g-50 show">
-				<div class="g-50 show">
-					<div class="g-50 show">
-						50%
-					</div>
-					<div class="g-50 show">
-						50%
-					</div>
-				</div>
-				<div class="g-50 show">
-					50%
-				</div>
-			</div>
-			<div class="g-50 show">
-				50%
-			</div>
-		</div>
-
-		<p>Here's a simple page using all of these elements</p>
-	</section>
 
 	<header>
 		<section>
@@ -118,7 +101,7 @@
 
 		<div class="g-row">
 			<div class="g-30">
-				<img src="IMG_0922.jpg">
+				<img src="img/IMG_0922.jpg">
 			</div>
 			<div class="g-70 padded">
 				<h3>Example</h3>
@@ -146,7 +129,7 @@
 			</div>
 		</div>
 	</section>
-
+</div>
 </body>
 
 </html>

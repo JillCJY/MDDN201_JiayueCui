@@ -5,6 +5,7 @@
 }
 
 body{
+
 	margin: 0px; /* Often browsers have a 5px margin by deafult*/
 	font-family: sans-serif;
 	background-color: Moccasin;
@@ -12,29 +13,22 @@ body{
 }
 
 
-h1{
 
-	background-color: white;
 
-}
-
-nav{
-	background-color: white;
-}
 
 section{
 	max-width: 1000px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
 header{
 	background-color: darkOrange;
 	color: black; /* more readable on an orange background */
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 nav{

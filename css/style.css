@@ -8,18 +8,9 @@ body{
 
 	margin: 0px; /* Often browsers have a 5px margin by deafult*/
 	font-family: sans-serif;
-	background-color: Moccasin;
+	background-color:cornsilk;
 
 }
-
-body2{
-	max-width: 1000px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 50px;
-	margin-bottom: 50px;
-}
-
 
 
 
@@ -32,14 +23,34 @@ section{
 }
 
 header{
-	background-color: darkOrange;
+	background-color: coral;
 	color: black; /* more readable on an orange background */
 	padding-top: 40px;
 	padding-bottom: 30px;
 }
 
+h1{
+	color: white;
+	text-shadow: 4px 4px #FF0000
+}
 
 
+
+h3{
+	color: white;
+	text-shadow: 2px 2px #FF0000
+}
+
+h4{
+	color: black;
+	text-shadow: 2px 2px white
+}
+
+h2{
+	font-size: 40px;
+	color: white;
+	text-shadow: 4px 4px #FF0000
+}
 
 /* Simple grid */
 .g-row{
@@ -79,3 +90,4 @@ header{
 .padded{
 	padding: 20px; /* I add this to cells to add a little padding*/
 }
+

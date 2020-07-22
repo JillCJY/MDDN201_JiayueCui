@@ -6,16 +6,24 @@
 
 body{
 
-	margin: 0px; /* Often browsers have a 5px margin by deafult*/
+	margin: 5px; /* Often browsers have a 5px margin by deafult*/
 	font-family: sans-serif;
 	background-color:cornsilk;
 
 }
 
+h5 {
+	max-width: 1000px;
+	margin-left: 1px;
+	margin-right: 1px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
 
 
 section{
-	max-width: 1000px;
+	max-width: 1200px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 50px;
@@ -27,6 +35,8 @@ header{
 	color: black; /* more readable on an orange background */
 	padding-top: 40px;
 	padding-bottom: 30px;
+	margin-left: 250px;
+	margin-right: 25px;
 }
 
 h1{
@@ -59,7 +69,10 @@ h2{
 }
 
 .g-row img{
-	width: 100%; /*This makes all images in grids to be the size of their cell */
+	width: 100%; 
+	margin-left: 25px;
+	margin-right: 25px;
+
 }
 
 .g-50{

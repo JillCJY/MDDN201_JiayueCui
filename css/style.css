@@ -92,6 +92,21 @@ h2{
 }
 
 .edit{
+	color: #b30000 ;
+	font-size: 23px; 
+	text-align: center;
+	margin-top: 32px;
+	margin-bottom: 32px;
+	text-shadow: 2px 2px white
 	 /* I add this to cells to add a little padding*/
 }
+
+/*.w3-bar-block{
+	z-index: 1
+	border-style:none solid none none;
+	border-width:50px;
+
+	 /* I add this to cells to add a little padding*/
+}
+
 
